@@ -14,6 +14,10 @@
             color: blue;
         }
 
+        .cor_amarelo {
+            color: rgb(199, 109, 7);
+        }
+
         .cor_verde {
             color: rgb(19, 146, 30);
         }
@@ -88,6 +92,68 @@
             margin-bottom: 20px;
 
         }
+        .div_Tabela_Formulario {
+            border-radius: 1px;
+            border: 2px solid;
+            /*border-style */
+            border-color: rgb(199, 109, 7);
+            padding-left: 15px;
+            padding-top: 20px;
+            padding-bottom: 50px;
+            margin-right: 100px;
+            margin-left: 100px;
+            margin-bottom: 20px;
+
+        }
+        th{
+            padding: 10px;
+            padding-left: 100px;
+            padding-right: 80px;
+
+        }
+        td{
+            padding: 10px;
+            padding-left: px;
+            padding-right: 100px;
+            text-align: left;
+
+        }
+        input{
+            padding: 5px;
+            width: 600px;
+            margin-bottom: 10px;
+            border-color: rgb(199, 109, 7);
+            outline: none;
+        }
+        
+        .input_caixa{
+            padding: 5px;
+            padding-bottom: 50px;
+            width: 600px;
+            margin-bottom: 10px;
+            border-color: rgb(199, 109, 7);
+            outline: none;
+        }
+        .input_submit{
+            padding: 5px;
+            padding-bottom: 10px;
+            width: 120px;
+            margin-bottom: 10px;
+            border-color: rgb(199, 109, 7);
+            outline: none;
+        }
+        .div_rodape {
+            border-radius: 30px;
+            border: 2px solid;
+            /*border-style */
+            border-color: rgb(0, 0, 0);
+            padding-left: 15px;
+            padding-top: 20px;
+            margin-right: 100px;
+            margin-left: 100px;
+            margin-bottom: 20px;
+
+        }
     </style>
 
 
@@ -136,34 +202,51 @@
             <h2>Tabela de Registros</h2>
         </font>
 
-        <table border="2" cellspacing="3" cellpadding="10" align="center" bordercolor="#7C0C86" bgcolor="">
+        <table border="2" cellspacing="" cellpadding="" align="" bordercolor="#7C0C86" bgcolor="">
 
             <tr>
-                <th class="cor_roxo" nowrap colspan="100">ID</th>
-                <th class="cor_roxo">Nome</th>
-                <th class="cor_roxo">Status</th>
+                <th class="cor_roxo" align="center" >ID</th>
+                <th class="cor_roxo" align="center">Nome</th>
+                <th class="cor_roxo" align="center">Status</th>
             </tr>
-
             <tr>
-
-                <td align="center" nowrap colspan="100" rowspan="" valign="left">
-                    Domingo
-                </td>
-
+                <td>001</td>
+                <td>Ana Silva</td>
+                <td>Ativo</td>
             </tr>
-
             <tr>
-
-                <td align="center" nowrap colspan="" rowspan="" valign="left">
-                    Domingo
-                </td>
-
+                <td>002</td>
+                <td>Bruno Costa</td>
+                <td>Pendente</td>
             </tr>
-
+             </table>
     </div>
+    
 
 
 
+
+
+
+    <div class="div_Tabela_Formulario">
+
+        <form action="clima.html" method="get">
+
+           <font class="cor_amarelo" >Nome completo:</font><br>
+        <input name="nome_usuario" value="" size="" type="text"><font class="cor_amarelo" >E-mail de</font><br>
+        
+        <font class="cor_amarelo" >Contato: </font>
+        <input name="senha_usuario" value="" type="text">
+        
+        <font class="cor_amarelo" >Categoria:  Mensagem:</font>
+        <input class="input_caixa" name="categoria" value="" size="" type="email">
+        <br>
+        
+        <input class="input_submit" type="submit" value="">
+
+        </form>
+
+    
 
 
 
@@ -171,8 +254,14 @@
 
 </div>
 
+    <div class="div_rodape">
 
+       
+        <p>Rodapé da Pagina- Todos direitos reservados.</p>
 
+    </div>
+
+</div>
 
 
 
