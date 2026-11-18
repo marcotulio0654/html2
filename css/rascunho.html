@@ -7,6 +7,8 @@
     <meta name="author" content="marco">
     <meta http-equiv="refresh" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="externo.css">
+    <link rel="stylesheet" href="/html/html2/css/externo.css">
     
 <style> 
 
@@ -71,6 +73,56 @@
         font-style:oblique 2deg;
         font-variant: small-caps;
     }
+    .display_inline{
+        display: inline;
+        color: blue;
+        margin-right: 20px; /* Dá um espaço horizontal entre eles */
+        background-color: #e0f2fe;
+        padding: 5px 10px;
+
+    }
+    .display_inline_block{
+        display: inline-block;
+        margin-right: 20px; /* Dá um espaço horizontal entre eles */
+        background-color: #24662f;
+        padding: 5px 10px;
+    }
+    .display_flex{
+        display: flex;
+        margin-right: 20px; /* Dá um espaço horizontal entre eles */
+        background-color: #511c70;
+        padding: 5px 10px;
+
+    }
+    .flex_direction{
+        display: flex;
+        flex-direction:row-reverse;/*colum*/
+        justify-content:space-between;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content:space-evenly;
+        flex-direction: row;
+        
+
+    }
+    .tamanho{
+        width: 100px;
+        height: 100px;
+        border: 5px solid red;
+        background-color: #1c6370;
+        
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px;
+        align-content: center;/*vertical*/
+        align-items: center;
+        justify-content: center;/*horizontal*/
+        gap: 10px 10px;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
 
 
 </style>
@@ -95,6 +147,15 @@
         <div class="div_radius"><p>testando divi css com class border radius/margin</p></div>
 
         <div class="div_auto"><p>testando divi css com class margin auto</p></div>
+        <div class="display_inline_block"><p>testanto display_inline_block</p></div>
+        <div class="display_inline"><p>testanto display_inline</p></div>
+        <div class="display_flex"><p>testanto display_flex</p></div>
+        
+        <div class="flex_direction">
+        <div class="tamanho">1</div>
+        <div class="tamanho">2</div>
+        <div class="tamanho">3</div>
+        </div>
 
 
 
