@@ -1,0 +1,104 @@
+.div_create{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #5da691;
+    width: 100%;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+    
+}
+.fundo_login{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px;
+    justify-content:flex-start;
+    background-color: rgb(253, 253, 253);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    box-shadow: 20px 30px 30px rgba(0, 0, 0, 0.25);
+
+    justify-items:stretch;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: stretch;
+       
+    }
+    .div_welcome{
+    background-color: #60a68c;
+    border-color:#60a68c;
+    border-radius: 5px;
+    border: 5px solid #60a68c;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:100;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+    }
+    .button_welco{
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    color: aliceblue;
+    background-color: #60a68c;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+
+    }
+    .input-foto_nome {
+    background-image: url("user.png");
+    background-repeat: no-repeat;
+    background-position: 5px ;
+    background-size: 18px 18px;
+    padding-left: 30px;
+    height: 40px;
+    width: 190px;
+    background-color: #f0f1f2;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+.input-foto_email {
+    background-image: url("mail.png");
+    background-repeat: no-repeat;
+    background-position: 5px ;
+    background-size: 18px 18px;
+    padding-left: 30px;
+    height: 40px;
+    width: 190px;
+    background-color: #f0f1f2;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+     margin-bottom: 5px;
+}
+.input-foto_passoword {
+    background-image: url("pass.png");
+    background-repeat: no-repeat;
+    background-position: 5px ;
+    background-size: 18px 18px;
+    padding-left: 30px;
+    height: 40px;
+    width: 190px;
+    background-color: #f0f1f2;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+     margin-bottom: 5px;
+}
+.linha{
+    text-decoration: none;
+}
