@@ -123,6 +123,23 @@
         column-gap: 10px;
         row-gap: 10px;
     }
+    .gradiente{
+        background-image: -o-linear-gradient(135deg,blue 10%, white 90%);/*linear*/
+        background-image: radial-gradient(circle at top left,blue 10%, white 90%);/*circular*/
+        background-image: conic-gradient(gray 70%);/*Grafico pizza*/
+
+    }
+    :root{
+        --cor-primaria: #2980b9
+    }
+    .P{
+        color: var(--cor-primaria);
+    }
+    .position{
+        z-index: auto;
+        position: relative;
+    }
+
 
 
 </style>
@@ -156,7 +173,8 @@
         <div class="tamanho">2</div>
         <div class="tamanho">3</div>
         </div>
-
+        
+        <p class="P">oi</p>
 
 
 
