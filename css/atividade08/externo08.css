@@ -2,7 +2,12 @@
     background-color: rgb(3, 3, 32);
     color: white;
     text-align: center;
-    position: sticky;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    
     
 }
 .html{
@@ -11,12 +16,68 @@
     border: 2px solid #000000;
     text-align:center;
     font-size: 15px;
-    margin-left: 550px;
-    margin-right: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
     margin-top: 50px;
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: white;
+    position: relative;
      
+
+}
+.java{
+    border-color:#000000;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    text-align:center;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: white;
+    position: relative; 
+
+}
+.ultima_vaga{
+    border-color:#e40707;
+    border-radius: 5px;
+    border: 2px solid #f00505;
+    width: 100px;
+    background-color: #e40707;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top: -8px;
+    right: 50px;
+
+}
+.novo{
+    border-color:#e40707;
+    border-radius: 5px;
+    border: 2px solid #f00505;
+    width: 50px;
+    background-color: #e40707;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top: -8px;
+    right: 50px;
+
+}
+.button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 25px;
+    border-color:#0e7e26;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    background-color: #0b7e24;
+    color: white;
 
 }

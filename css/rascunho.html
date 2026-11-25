@@ -139,8 +139,54 @@
         z-index: auto;
         position: relative;
     }
-
-
+    :hover{
+        color: red; /*Ativa quando o cursor passa por cima*/
+    }
+    :active{
+        color: red;/*ativa no momento que esta sendo pressionado*/
+    }
+    .transform{
+        transform: none;/*y-baixo x-lado*/
+        transform: translate(10px, 10px);/*move o elemento nos eixos horizontal*/
+        transform: scale(0.5);/*aumenta ou diminui o tamanho de 0a1*/
+        transform: rotate(45deg);/*Gira o elemento em graus*/
+        transform: skew(45deg);/*Inclina/distorce o elemento em perspectiva*/
+        transform: translateX(10px);
+    }
+    @keyframes nome{
+        0%{transform: scale(1);}
+        100%{transform: scale(1.5);}
+    }
+    
+    @keyframes name{
+        from{transform: scale(1);}
+        to{transform: scale(1.5);}
+    }
+    .my-element{
+        animation-name:mudarcor,flutuar;/*COLOCAR O NOME DAS KEYS E COLOCAR ANIMATION NAME NA CLASSE COM O NOME*/
+        
+    }
+    .my-element{
+        animation-duration: 10s;
+        animation-duration: 10ms;
+        animation-timing-function: linear;/*ease(padrao),linear,ease-in,ease-out e steps(n)*/
+        animation-iteration-count: infinite;/*quantidade de repetição*/
+        animation-direction:alternate;
+        animation-fill-mode:backwards;
+        animation-play-state: running;
+        opacity: 1;
+    }
+    /*EXEPLOES AQUI
+    @keyframes mover{
+        0%{transform: scale(1);}
+        
+        100%{transform: scale(1.5);}
+    }
+    .elemento{
+        animation-name: mover;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+    }*/
 
 </style>
 

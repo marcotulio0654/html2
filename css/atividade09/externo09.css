@@ -1,0 +1,42 @@
+body{
+
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}   
+
+
+@keyframes mover{
+        
+        0%{transform: scale(1);  opacity: 1;}
+
+        100%{transform: scale(1.5);  opacity: 0;}
+    }
+
+.elemento2{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #ad4d4d;
+    border-color:#ad4d4d;
+    border-radius: 50%;
+    border: 2px solid #ad4d4d;
+    animation: mover infinite 1s 0s ease-out normal backwards;
+    position: fixed;
+    z-index: 0;
+    
+    }
+
+.elemento1{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #e40707;
+    border-color:#e40707;
+    border-radius: 50%;
+    border: 2px solid #f00505;
+    position: fixed;
+    z-index: 1;
+    
+    }
